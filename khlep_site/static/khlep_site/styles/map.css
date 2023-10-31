@@ -1,0 +1,52 @@
+.searchBox {
+    position: absolute;
+    top: 5%;
+    left: 50%;
+    transform:  translate(-50%,50%);
+    background: #d2f027;
+    height: 40px;
+    border-radius: 40px;
+    padding: 10px;
+    z-index: 2;
+}
+
+
+.searchButton {
+    color: black;
+    float: right;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: #27f042;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.4s;
+    size: large;
+}
+
+.searchInput {
+    border:none;
+    background: none;
+    outline:none;
+    float:left;
+    padding: 0;
+    color: black;
+    font-size: 16px;
+    transition: 0.4s;
+    line-height: 40px;
+    width: 0;
+}
+
+.map {
+    background-color: grey;
+    display: flex;
+    flex: 1;
+}
+
+#mapid {
+    bottom: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}

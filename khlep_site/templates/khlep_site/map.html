@@ -1,0 +1,12 @@
+{% load static %}
+<link rel="stylesheet" type="text/css" href="{% static 'khlep_site/styles/map.css' %}">
+<div class="searchBox">
+    <input class="searchInput" type="text" placeholder="Enter keywords...">
+    <button class="searchButton" href="#">
+            <ion-icon name="search-circle-outline" size="large"></ion-icon>
+    </button>
+</div>
+<section class="map">
+    <div id="mapid"><script src="{% static 'khlep_site/scripts/map.js' %}"></script></div>
+</section>
+<script src="{% static 'khlep_site/scripts/script.js' %}"></script>

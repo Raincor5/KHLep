@@ -1,0 +1,8 @@
+{% load static %}
+<link rel="stylesheet" type="text/css" href="{% static 'khlep_site/styles/profile_auth0.css' %}">
+<div class="profile">
+    <div class="profile-buttons">
+        <a href="{% url 'accounts:register' %}"><button type="button" id="register-button">Sign up</button></a>
+        <a href="{% url 'accounts:login' %}"><button type="button" id="login-button">Login</button></a>
+    </div>
+</div>

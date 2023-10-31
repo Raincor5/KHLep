@@ -1,0 +1,26 @@
+.signup-form {
+    background: grey;
+    height: 80vh;
+    margin: auto;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+}   
+
+
+.signup-form-form {
+    display: flex;
+}
+
+#form-text {
+    height: 25px;
+    border-radius: 5px;
+    padding: 5px;
+    border: solid thin #aaa;
+    width: 100%;
+    margin: auto;
+}
+
+#btn-submit {
+    margin: auto;
+}

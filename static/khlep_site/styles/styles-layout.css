@@ -1,0 +1,121 @@
+body {
+    background-color: white;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.header {
+    background-color: #01B578;
+    height: 8vh;
+    display: flex;
+    width: 100%;
+    overflow: hidden;
+}
+
+.main {
+    flex: 1;
+    padding: 20px;
+    background-color: white;
+}
+
+.footer {
+    width: 100%;
+    background-color: #01B578;
+    height: 3vh;
+    overflow: hidden;
+}
+
+.site-navigation {
+    margin: auto 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 0;
+    flex: 0 25%;
+    height: 100%;
+}
+
+
+.site-name {
+    height: 100%;
+    min-width: 0;
+    flex: 0 50%;
+    display: block;
+    text-align: center;
+    margin: auto;
+}
+
+.site-name a {
+    text-decoration: none;
+}
+
+.site-logo {
+    height: 70%;
+}
+
+.site-logo img {
+    max-height: 100%;
+    height: auto;
+}
+
+.site-logo-text {
+    font-size: large;
+}
+
+.navigation-buttons {
+    display: flex;
+    width: 50%;
+    height: 50%;
+}
+
+.nav-button {
+    margin: 0 10px;
+    width: 250px;
+    background-color: yellow;
+    border: 2px solid;
+    border-radius: 5px;
+    outline: black;
+    overflow: hidden;
+}
+
+.nav-button:hover {
+    background-color: #FFFF67;
+}
+
+.button__icon {
+    height: 100%;
+    font-size: large;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.site-info {
+    display: flex;
+    text-align: center;
+    float: right;
+    margin: 5px;
+}
+
+.profile {
+    margin: auto 0;
+    display: flex;
+    align-items: stretch;
+    justify-content: space-between;
+    min-width: 0;
+    flex: 0 25%;
+    height: 100%;
+    align-content: space-between;
+    flex-wrap: nowrap;
+    flex-direction: column;
+
+

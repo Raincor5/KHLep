@@ -1,0 +1,40 @@
+.profile_auth0 {
+    margin: auto 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 0;
+    flex: 0 25%;
+    height: 100%;
+}
+
+.profile-buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#register-button {
+    background-color: yellow;
+    border: none;
+    border-radius: 3px;
+    font-size: large;
+    margin: auto 15px;
+    padding: 8px;
+}
+
+#register-button:hover {
+    background-color: white;
+}
+
+#login-button {
+    background: transparent;
+    border-style: hidden;
+    font-size: large;
+    color: white;
+    padding: 8px;
+}
+
+#login-button:hover {
+    color:yellow;
+}
